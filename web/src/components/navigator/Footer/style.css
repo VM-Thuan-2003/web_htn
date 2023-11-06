@@ -1,0 +1,39 @@
+#footer{
+    height: 84px !important;
+    width: 100vw !important;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer_about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_about_ds{
+    font-size: 1.4rem;
+    padding-right: 16px;
+}
+.footer_about_list{
+    list-style: none;
+    width: max-content;
+}
+.footer_about_item{
+    width: 100%;
+    display: block;
+    padding: 2px 0;
+}
+.footer_about_item_name{
+    width: 140px;
+    display: inline-block;
+}
+.footer_spkt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_spkt .footer_spkt_name{
+    padding-right: 16px;
+    font-weight: bold;
+}
