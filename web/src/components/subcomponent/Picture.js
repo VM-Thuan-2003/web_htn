@@ -11,7 +11,7 @@ const style_logo_img = {
 function Picture(props) {
   return (
     <div style={style_logo}>
-      <img style={style_logo_img} src={require("../../components/images/" + props.imageUrl)} alt={props.altText} />
+      <img style={props.style_logo_img} src={require("../../components/images/" + props.imageUrl)} alt={props.altText} />
     </div>
   );
 }

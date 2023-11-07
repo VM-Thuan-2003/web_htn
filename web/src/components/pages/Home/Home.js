@@ -3,7 +3,13 @@ import "./style.css"
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <ul>
+        <li>
+          ss
+        </li>
+      </ul>
+    </div>
   )
 }
 

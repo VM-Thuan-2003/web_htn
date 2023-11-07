@@ -25,7 +25,8 @@ const Footer = () => {
       <div className='footer_spkt'>
         <span className='footer_spkt_name'>Khoa điện - điện tử</span>
         <span className='footer_spkt_image'>
-          <Picture imageUrl="logo_IEEE.png" altText="logo"/>
+          <Picture style_logo_img={{"width":"40px",
+                                    "height":"40px"}} imageUrl="logo_IEEE.png" altText="logo"/>
         </span>
       </div>
     </div>

@@ -2,7 +2,6 @@ from fastapi import FastAPI, HTTPException, Body
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 from pydantic import BaseModel
-from bson import ObjectId
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
